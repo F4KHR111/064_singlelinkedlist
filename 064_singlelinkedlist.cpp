@@ -34,4 +34,9 @@ void addNode() {
 
 	Node* pervious = START;
 	Node* current = START;
+
+	while ((current != NULL) && (nim >= current->noMhs))
+	{
+		
+	}
 }
