@@ -31,4 +31,6 @@ void addNode() {
 		START = nodeBaru;
 		return;
 	}
+
+	Node* pervious = START;
 }
