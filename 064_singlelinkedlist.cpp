@@ -72,4 +72,6 @@ bool serachNode(int nim, Node* current, Node* pervious) {
 		return false;
 	}
 }
-
+bool deleteNode(int nim) {
+	
+}
