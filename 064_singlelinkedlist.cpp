@@ -33,4 +33,5 @@ void addNode() {
 	}
 
 	Node* pervious = START;
+	Node* current = START;
 }
