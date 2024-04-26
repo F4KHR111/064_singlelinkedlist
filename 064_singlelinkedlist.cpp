@@ -47,5 +47,6 @@ void addNode() {
 	}
 
 	nodeBaru->next = current;
+	pervious->next = nodeBaru;
 }
 
