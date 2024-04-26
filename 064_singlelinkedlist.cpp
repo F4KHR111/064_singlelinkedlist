@@ -135,7 +135,7 @@ int main() {
 	{
 		try
 		{
-			cout << "1.Tambah Data" << endl;
+			cout << "1. Tambah Data" << endl;
 			cout << "2. Hapus Data" << endl;
 			cout << "3. Tampilkan Data" << endl;
 			cout << "4. Cari Data" << endl;
