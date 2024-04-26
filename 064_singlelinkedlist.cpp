@@ -73,5 +73,12 @@ bool serachNode(int nim, Node* current, Node* pervious) {
 	}
 }
 bool deleteNode(int nim) {
-	
+	Node* current = START;
+	Node* pervious = START;
+	if (serachNode(nim, pervious, current) == false)
+		return false;
+	pervious->next = current->next;
+	if (current == START)
+		START = current->next;
+	return true;
 }
